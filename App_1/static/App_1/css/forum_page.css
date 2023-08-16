@@ -1,0 +1,68 @@
+main .forum_page {
+    float: left;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+main .forum_page p {
+    max-width: 430px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+    float: left;
+    clear: both;
+    width: 60%;
+    color: black;
+    margin: 10px 20%;
+    text-align: left;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-button ul {
+    list-style: none;
+    float: left;
+    clear: both;
+    width: 300px;
+    margin: 15px 39.4%;
+    text-align: center;
+    font-size: 16px;
+    padding-right: 24px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-button ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.add-button ul li:hover,
+.add-button a:hover {
+    color: #FFA500;
+    font-weight: bold;
+    transform: scale(1.05);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-button li {
+    color: black;
+    transition: all .6s ease;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+    resize: vertical;
+    overflow-y: auto;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

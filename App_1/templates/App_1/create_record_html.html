@@ -1,0 +1,19 @@
+{% extends 'App_1/base_html.html' %}
+
+{% block title %}
+    Форма з додавання запису
+{% endblock %}
+
+{% block content %}
+    <div class="create-record-html">
+        <h1>Форма з додавання запису</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.title }}<br>
+            {{ form.full_text }}<br>
+            {{ form.date }}<br>
+            <span>{{ error }}</span>
+            <button class="btn btn-success" type="submit">Додати Запис</button>
+        </form>
+    </div>
+{% endblock %}

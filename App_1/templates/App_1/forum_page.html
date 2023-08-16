@@ -1,0 +1,27 @@
+{% extends 'App_1/base_html.html' %}
+
+{% block title %}
+    Сторінка Форуму
+{% endblock %}
+
+{% block content %}
+    <div class="forum_page">
+        <h1>Сторінка Форуму</h1>
+
+        {% for el in entry %}
+            <div class="border rounded p-3 page">
+                <h3>{{ el.title }}</h3>
+                <p>{{ el.full_text }}</p>
+                <p class="pub-time">Час публікації: {{ el.date }}</p>
+            </div>
+        {% endfor %}
+
+        <div class="add-button">
+            <ul>
+                {% if user.is_authenticated %}
+                    <a href="{% url 'record_creation_page' %}"><li>Додати Запис</li></a>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

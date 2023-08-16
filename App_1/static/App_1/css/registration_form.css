@@ -1,0 +1,77 @@
+main .mt-5 {
+    float: left;
+    color: black;
+    margin-left: 281px;
+    text-align: left;
+    width: 45%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Добавленная тень */
+}
+
+main .mt-5 p {
+    max-width: 430px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mt-5 {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mt-5 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mt-5 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.mt-5 input[type="text"],
+.mt-5 input[type="email"],
+.mt-5 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.mt-5 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mt-5 button:hover {
+    background-color: #2980b9;
+}
+
+.mt-5 p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mt-5 a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.mt-5 a:hover {
+    text-decoration: underline;
+}

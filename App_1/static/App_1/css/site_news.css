@@ -1,0 +1,35 @@
+main .site_news {
+    float: left;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+main .site_news p {
+    max-width: 430px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site {
+    float: left;
+    clear: both;
+    width: 60%;
+    color: black;
+    margin: 10px 20%;
+    text-align: left;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main .site table {
+    width: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}

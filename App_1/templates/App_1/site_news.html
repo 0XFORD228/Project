@@ -1,0 +1,17 @@
+{% extends 'App_1/base_html.html' %}
+
+{% block title %}Сторінка Новин{% endblock %}
+
+{% block content %}
+<div class="site_news">
+    <h1>Сторінка Новин</h1>
+
+    {% for el in news %}
+        <div class="border rounded p-3 site">
+            <h3>{{ el.title }}</h3>  <!-- Виводимо назву публікації -->
+            <p>{{ el.full_text }}</p>  <!-- Виводимо повний текст публікації -->
+            <p class="pub-time">Час публікації: {{ el.date }}</p>  <!-- Виводимо час публікації -->
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
